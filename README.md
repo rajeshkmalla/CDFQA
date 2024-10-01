@@ -12,3 +12,7 @@ This code has been originally developed by Ilya Kuprov (http://spindynamics.org/
 % If you use this code, please cite 
 %  - H. J. Hogben, M. Krzystyniak, G. T. P. Charnock, P. J. Hore and I. Kuprov, Spinach – A software library for simulation of spin dynamics in large spin systems, J. Magn. Reson., 2011, 208, 179–194.
 %  - I. Kuprov, Diagonalization-free implementation of spin relaxation theory for large spin systems., J. Magn. Reson., 2011, 209, 31–38.
+
+## Python codes for excuting on quantum computer
+
+The Run_on_quantum_computer.ipynb file incudes constructing the feed-back based circuits and the procedure for running the circuits iteratively on quantum computer. The codes are mostly using Qiskit package (https://github.com/qiskit). The file itself only contains the methods for running on local simulator. If one want to exicute the circuits with real quantum computer, simply change the variable "backend" accordingly.
