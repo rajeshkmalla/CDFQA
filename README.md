@@ -15,4 +15,4 @@ This code has been originally developed by Ilya Kuprov (http://spindynamics.org/
 
 ## Python codes for executing on quantum computers
 
-The Run_on_quantum_computer.ipynb file includes constructing the feed-back based circuits and the procedure for running the circuits iteratively on quantum computers. The codes are mostly using the Qiskit package (https://github.com/qiskit). The file itself only contains the methods and results for running on a local simulator. If one wants to execute the circuits with real quantum computers, one can simply change the variable "backend" accordingly.
+The Run_on_quantum_computer.ipynb file includes constructing the feed-back-based circuits and the procedure for running the circuits iteratively on quantum computers. The codes are mostly using the Qiskit package (https://github.com/qiskit). The file itself only contains the methods and results for running on a local simulator. If one wants to execute the circuits with real quantum computers, one can simply change the variable "backend" accordingly.
