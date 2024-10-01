@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: mainNotes.bib
+Database file #2: bib.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in tubman2018postponing
+Warning--missing journal in wang2023ground
+Warning--missing journal in farhi2000quantum
+Warning--missing journal in QAOA
+Warning--missing journal in gokhale2019minimizing
+Warning--missing journal in reggio2023fast
+Warning--missing journal in anastasiou2023really
+Warning--missing journal in zhu2023optimizing
+Warning--missing journal in yu2023learning
+Warning--missing journal in bergholm2018pennylane
+You've used 60 entries,
+            5847 wiz_defined-function locations,
+            2061 strings with 31296 characters,
+and the built_in function-call counts, 74778 in all, are:
+= -- 3930
+> -- 2704
+< -- 532
++ -- 833
+- -- 692
+* -- 12824
+:= -- 6806
+add.period$ -- 61
+call.type$ -- 60
+change.case$ -- 243
+chr.to.int$ -- 59
+cite$ -- 70
+duplicate$ -- 6767
+empty$ -- 5365
+format.name$ -- 1574
+if$ -- 14951
+int.to.chr$ -- 2
+int.to.str$ -- 68
+missing$ -- 861
+newline$ -- 232
+num.names$ -- 180
+pop$ -- 2643
+preamble$ -- 1
+purify$ -- 300
+quote$ -- 0
+skip$ -- 2439
+stack$ -- 0
+substring$ -- 1552
+swap$ -- 6969
+text.length$ -- 347
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 1005
+warning$ -- 10
+while$ -- 169
+width$ -- 0
+write$ -- 521
+(There were 10 warnings)
