@@ -19,15 +19,27 @@ HCD3=HamNN(N,2,1,1,perBC);
 %
 psi_initial=ones(2^N,1)./sqrt(2^N);
 
-
+f=figure;
 
 for k=1:4
     dt=TIME(k);
     k1=dt/0.02;
     Layers=10/dt;
-   [EN,B,G]=CDFQA_energy_vs_cir_depth(N,HP,HM,HCD1,psi_initial,Layers,dt,alpha);
+   [EN,B,G]=CDFQA_energy_vs_cir_depth(N,HP,HM,HCD0,psi_initial,Layers,dt,alpha);
 loglog((1:Layers).*k1,(real(EN(:,1))-D(1,1))/N,'Color',CD{k},'LineWidth',2)
 hold on
 grid on
 end
 
+
+%set(f, 'PaperPositionMode', 'auto');
+box on
+grid on
+%legend('I','Y','YZ','YX')
+%legend('I,Y','YZ')
+set(gca, "FontName",'Number of Layers','FontSize',24,'LineWidth',1.5)
+% xlabel('{\cal L}','Interpreter','latex',FontSize=28)
+% ylabel('e_P',FontSize=28)
+
+%print(fig, 'figure_output', '-dpng', '-r300');  % PNG file with 300 dpi resolution
+exportgraphics(f,'Fig8/MFIdifferentdeltat0.jpg')
