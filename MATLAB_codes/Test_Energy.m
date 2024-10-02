@@ -53,7 +53,7 @@ end
 set(f, 'PaperPositionMode', 'auto');
 box on
 grid on
-%legend('I','Y','YZ','YX')
+legend('I','Y','YZ','YX')
 %legend('I,Y','YZ')
 set(gca, "FontName",'Number of Layers','FontSize',24,'LineWidth',1.5)
 xlabel('{\cal L}','Interpreter','latex',FontSize=28)
