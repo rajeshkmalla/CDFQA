@@ -26,3 +26,4 @@ To add error mitigation methods, modify the flags under the variable "options" a
 
 ## Python codes for Pennylane
   
+Includes example codes for simulation on Pennylane
