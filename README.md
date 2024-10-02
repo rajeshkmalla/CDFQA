@@ -20,3 +20,7 @@ The Run_on_quantum_computer.ipynb file includes constructing the feedback-based 
 To execute the circuits with real quantum computers, change the variable "backend" accordingly.
 
 To add error mitigation methods, modify the flags under the variable "options" accordingly.
+
+
+## Python codes for Pennylane
+  
