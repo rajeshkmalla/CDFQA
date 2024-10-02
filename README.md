@@ -13,6 +13,8 @@ This code has been originally developed by Ilya Kuprov (http://spindynamics.org/
 %  - H. J. Hogben, M. Krzystyniak, G. T. P. Charnock, P. J. Hore and I. Kuprov, Spinach – A software library for simulation of spin dynamics in large spin systems, J. Magn. Reson., 2011, 208, 179–194.
 %  - I. Kuprov, Diagonalization-free implementation of spin relaxation theory for large spin systems., J. Magn. Reson., 2011, 209, 31–38.
 
+** All the Matlab functions and the file to generate energy vs Cir depth have been converted to Python. **
+
 ## Python codes for executing on quantum computers
 
 The Run_on_quantum_computer.ipynb file includes constructing the feedback-based circuits and the procedure for running the circuits iteratively on quantum computers. The codes are mostly using the Qiskit package (https://github.com/qiskit) with version 1.2.0. The file itself only contains the methods and results for running on a local simulator. 
